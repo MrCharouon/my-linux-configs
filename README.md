@@ -2,4 +2,4 @@
 
 
 
-![alt scrcpy](https://github.com/MrCharouon/my-linux-configs/blob/main/scrcpy.md)
+![scrcpy on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/scrcpy.md)
