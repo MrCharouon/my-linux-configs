@@ -11,12 +11,6 @@ w --> write --> 2
 x --> execute --> 1
 ```
 
-```
-r --> 4
-w --> 2
-x --> 1
-```
-
 
 ### how to change ?
 
