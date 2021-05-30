@@ -6,4 +6,4 @@
 
 ![protonVPN on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/protonVPN.md)
 
-![protonVPN on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/‫‪permission‬‬.md)
+![‫‪permission‬‬s on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/‫‪permission‬‬.md)
