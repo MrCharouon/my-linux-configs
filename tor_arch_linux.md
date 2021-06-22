@@ -17,23 +17,20 @@ sudo systemctl restart tor.service
 
 ```https://wiki.archlinux.org/title/Privoxy```
 
-````
+
+```
 sudo pacman -S privoxy
 vim /etc/privoxy/config
 >>> forward-socks5t / 127.0.0.1:9050 .
 sudo systemctl start/enable privoxy.service
 ```
 
-
-
-
-
-
+```
 sudo pacman -S torsocks
 less /etc/tor/torsocks.conf
 >>> TorAddress 127.0.0.1
 >>> TorPort 9050
-
+```
 
 
 
