@@ -45,7 +45,7 @@ torsocks ls
 
 
 
-
+#### sample `torrc`
 ```
 UseBridges 1
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
