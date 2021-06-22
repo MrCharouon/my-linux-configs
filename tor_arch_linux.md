@@ -47,9 +47,6 @@ torsocks ls
 
 
 ```
-##SocksPort 0.0.0.0:9050
-##DataDirectory /var/lib/tor
-
 UseBridges 1
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy
 
