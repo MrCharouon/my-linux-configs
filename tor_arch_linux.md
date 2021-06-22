@@ -17,7 +17,7 @@ sudo systemctl restart tor.service
 
 
 
-![privoxy wiki](https://wiki.archlinux.org/title/Privoxy)
+![privoxy wiki ](https://wiki.archlinux.org/title/Privoxy)
 
 ```
 sudo pacman -S privoxy
