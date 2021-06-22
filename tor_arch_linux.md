@@ -7,7 +7,7 @@ sudo systemctl start/enable tor.service
 
 
 
-
+#### install obfs4proxy
 ```
 yay -S obfs4proxy
 now we go here and get a bridge   "https://bridges.torproject.org/"
@@ -17,7 +17,7 @@ sudo systemctl restart tor.service
 
 
 
-
+#### install  privoxy
 ```
 sudo pacman -S privoxy
 vim /etc/privoxy/config
@@ -27,7 +27,7 @@ for more information URL privoxy wiki   "https://wiki.archlinux.org/title/Privox
 ```
 
 
-
+#### install torsocks
 ```
 sudo pacman -S torsocks
 less /etc/tor/torsocks.conf
@@ -36,7 +36,7 @@ less /etc/tor/torsocks.conf
 ```
 
 
-
+#### run the terminal
 ```
 export http_proxy="http://127.0.0.1:8118"
 export https_proxy="https://127.0.0.1:8118"
