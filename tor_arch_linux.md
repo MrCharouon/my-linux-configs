@@ -1,4 +1,7 @@
-```sudo pacman -S tor
+
+#### install tor and turn on the service
+```
+sudo pacman -S tor
 sudo systemctl start/enable tor.service
 ```
 
