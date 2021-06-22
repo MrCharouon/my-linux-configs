@@ -15,7 +15,8 @@ sudo systemctl restart tor.service
 
 
 
-``https://wiki.archlinux.org/title/Privoxy``
+```https://wiki.archlinux.org/title/Privoxy```
+
 ````
 sudo pacman -S privoxy
 vim /etc/privoxy/config
@@ -24,7 +25,7 @@ sudo systemctl start/enable privoxy.service
 ```
 
 
-............
+
 
 
 
@@ -36,16 +37,16 @@ less /etc/tor/torsocks.conf
 
 
 
-````
+```
 export http_proxy="http://127.0.0.1:8118"
 export https_proxy="https://127.0.0.1:8118"
 torsocks ls
-````
+```
 
 
 
 
-`````
+```
 SocksPort 0.0.0.0:9050
 DataDirectory /var/lib/tor
 
@@ -56,4 +57,4 @@ Bridge obfs4 159.69.221.234:8080 3506E82EA71882C5F7C45911099C569E6C4C5376 cert=Y
 Bridge obfs4 46.43.1.48:9101 B6461B4E15C02BB8578E5BEAD24D4187F086EC73 cert=hoGthy5+DAGrnL4Iaf67SBUozXf6MecVGEhhwFHNBKnhxal76lGVv2rn/E76/vaPAB3pAA iat-mode=0
 
 ExitNodes {us},{gb}
-````
+```
