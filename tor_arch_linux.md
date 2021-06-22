@@ -10,20 +10,20 @@ sudo systemctl start/enable tor.service
 
 ```
 yay -S obfs4proxy
-https://bridges.torproject.org/
+now we go here and get a bridge   "https://bridges.torproject.org/"
 sudo vim /etc/tor/torrc
 sudo systemctl restart tor.service
 ```
 
 
 
-![privoxy wiki ](https://wiki.archlinux.org/title/Privoxy)
 
 ```
 sudo pacman -S privoxy
 vim /etc/privoxy/config
 >>> forward-socks5t / 127.0.0.1:9050 .
 sudo systemctl start/enable privoxy.service
+for more information URL privoxy wiki   "https://wiki.archlinux.org/title/Privoxy"
 ```
 
 
