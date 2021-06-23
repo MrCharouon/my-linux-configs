@@ -3,8 +3,8 @@
 ```
 sudo pacman -S networkmanager
 sudo systemctl start/enable NetworkManager.service
-pacman -S linux-headers
-pacman -S broadcom-wl-dkms
+sudo pacman -S linux-headers
+sudo pacman -S broadcom-wl-dkms
 modprobe wl
 ```
 ### install openvpn to system
