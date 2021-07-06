@@ -11,3 +11,5 @@
 ![‫‪install tor in Arch linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/tor_arch_linux.md)
 
 ![‫‪wifi broadcom](https://github.com/MrCharouon/my-linux-configs/blob/main/wifi.md)
+
+![‫‪LAMP Server ](https://github.com/MrCharouon/my-linux-configs/blob/main/LAMP.md)
