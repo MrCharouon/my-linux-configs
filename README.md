@@ -6,10 +6,10 @@
 
 2) ![protonVPN on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/protonVPN.md)
 
-![‫‪permission‬‬s on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/‫‪permission‬‬.md)
+3) ![‫‪permission‬‬s on linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/‫‪permission‬‬.md)
 
-![‫‪install tor in Arch linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/tor_arch_linux.md)
+4) ![‫‪install tor in Arch linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/tor_arch_linux.md)
 
-![‫‪wifi broadcom](https://github.com/MrCharouon/my-linux-configs/blob/main/wifi.md)
+5) ![‫‪wifi broadcom](https://github.com/MrCharouon/my-linux-configs/blob/main/wifi.md)
 
-![‫‪LAMP Server ](https://github.com/MrCharouon/my-linux-configs/blob/main/LAMP.md)
+6) ![‫‪LAMP Server ](https://github.com/MrCharouon/my-linux-configs/blob/main/LAMP.md)
