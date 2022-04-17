@@ -14,4 +14,4 @@
 
 6) [‫‪LAMP Server ](https://github.com/MrCharouon/my-linux-configs/blob/main/LAMP.md)
 
-7) .[Tor install Arch Linux](https://github.com/MrCharouon/my-linux-configs/blob/main/tor_arch_linux.md) 
+7) [Tor install Arch Linux](https://github.com/MrCharouon/my-linux-configs/blob/main/tor_arch_linux.md) 
