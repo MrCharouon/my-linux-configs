@@ -1,0 +1,240 @@
+true==function(){
+var h
+h = (pe) 
+(cfield0)= h
+
+
+
+
+
+
+if ((tvol)!=0) return(1)
+}()
+
+
+true==function(){
+var a = 1
+var kf
+kf =((ct).Buy_I_Volume/(ct).Buy_CountI)/((ct).Sell_I_Volume/(ct).Sell_CountI)
+(cfield1)= ((Math.round(kf*100))/100) 
+if ((tvol)!=0 && kf > a) return (1)
+}()
+
+
+true==function(){
+var h
+var a
+
+b = ((ct).Buy_N_Volume/(tvol))
+s = ((ct).Sell_N_Volume/(tvol))
+
+
+(cfield2)= ("buy: %"+ "<font color=\""+"#009900" +"\" >"+ Math.round(b*100))+ "</font>"  + "  ⏪  "  +  ("sell: %"+   "<font color=\""+"#FF0000" +"\" >"+ Math.round(s*100)) + "</font>"
+
+if ((tvol)!=0) return(1)
+}()
+
+
+
+
+
+true==function(){
+a=((bvol)/1000000)
+
+b=Math.ceil(a*100)/100
+(cfield4)=a
+if ((tvol)!=0) return(1)
+
+}()
+
+
+true==function(){
+
+
+var s_kh= Math.round(((((ct).Buy_I_Volume*(pc))/(ct).Buy_CountI))/10000000);
+var s_f =Math.round((((ct).Sell_I_Volume*(pc))/(ct).Sell_CountI)/10000000);
+
+(cfield5)="س.خرید=" + "<font color=\""+"#009900" +"\" >"+ s_kh+ "</font>"+ "|س.فروش=" + "<font color=\""+"#FF0000" +"\" >"+ s_f+ "</font>";
+
+if ((tvol)!=0) return(1)
+}()
+
+
+
+
+true==function(){
+var h
+h = (eps)
+(cfield7)=h
+if ((tvol)!=0) return(1)
+}()
+
+
+true==function()
+{
+    var ave_month=function(){
+        var sum=0;
+        var ipos;
+        for(i=0;i<22;i++)
+        {
+             sum=sum+[ih][i].QTotTran5J
+        }
+        ave=sum/22
+        return ave;
+    };
+av =(ave_month()/1000000)
+(cfield8)=(av) 
+if ((tvol)!=0) return(1)
+}()
+
+
+
+
+true==function(){
+
+
+
+
+var ten=([ih][9].PriceMin+[ih][9].PriceMax)/2;
+var kiju=([ih][26].PriceMin+[ih][26].PriceMax)/2;
+var a = ""
+var b = ""
+var c = ""
+var d = ""
+var e = ""
+
+
+
+
+
+if((pl) >0.999 *ten && (pl) < 1.1*ten &&(pl)>[ih][9].PriceMax&&(plp)>0&&
+(pl) >0.999 *kiju && (pl) < 1.1*kiju &&(pl)>[ih][26].PriceMax&&(plp)>0){
+(a)="<font color=\""+"#009900" +"\" >"+ "قطع تنکانسن و کیجونسن"+ "</font>"
+}
+if (ten>0.999 *kiju && ten< 1.1*kiju &&(pl)>ten&&(pl)>[ih][26].PriceMax&&(plp)>0)
+{
+(b)="<font color=\""+"#009900" +"\" >"+ "کراس تنکاسن و کیجوسن"+ "</font>"
+}
+if(ten >0.99* (pl)&& ten< 1.05 * (pl) &&(pl)<[ih][9].PriceMax&&(plp)<0&& kiju >0.99* (pl)&& kiju< 1.05 * (pl) &&(pl)<[ih][26].PriceMax&&(plp)<0
+){
+(d)="<font color=\""+"#FF0000" +"\" >"+ "قطع تنکانسن و کیجونسن"+ "</font>"
+}
+if(kiju>0.99*ten && kiju<1.05*ten &&(pl)<ten&&(pl)<kiju&&(pf) < kiju&& (pl)<[ih][9].PriceMax &&(plp)<0
+)
+{
+(e)="<font color=\""+"#FF0000" +"\" >"+ "کراس تنکانسن و کیجونسن"+ "</font>"
+}
+else{
+    (c) = ""
+}
+
+
+
+var kf 
+
+var kh = Math.round ( ((ct).Buy_I_Volume * (pc) * 10) / 10000000 ) / 10;var f = Math.round ( ((ct).Sell_I_Volume * (pc) * 10) / 10000000 ) / 10;var pol_vorodi = Math.round ( (kh - f) * 100 ) / 100000;
+kf = ( ( (pc) - [ih][22].PClosing ) / [ih][22].PClosing )  *100
+
+
+
+if((kf)>0){
+    bb = SIGNAL= "<font color=\""+"#009900" +"\" >"+ (Math.round(kf)) +  "</font>" 
+
+}else{
+    bb= "<font color=\""+"#FF0000" +"\" >"+ (Math.round(kf)) + "</font>" 
+
+}
+
+if ( pol_vorodi > 0 ) {
+SIGNAL= "<font color=\""+"#009900" +"\" >"+ pol_vorodi +  "</font>" + " | " +  bb
+}
+else
+{
+SIGNAL= "<font color=\""+"#FF0000" +"\" >"+ pol_vorodi + "</font>" + " | " + bb
+}
+
+
+
+(cfield9)=SIGNAL + " | " + a +" "+ b + " " + c + d + "" + e
+
+
+
+
+if ((tvol)!=0) return(1)
+}()
+
+
+
+
+
+
+
+
+
+
+true==function(){
+
+var sum = 0 ;
+for(var i = 0 ; i<=20;i++){
+    sum=sum+[ih][i].QTotTran5J;
+}
+var mhm = sum / 21 ;
+if ((tvol)> 2* mhm ){
+    if ((tno)>50&&(tvol)>(bvol)&&(bvol)<=7000000&&(plp)>=(pcp)+1.5&&(eps)>0){
+        (cfield3)=    "<font color=\""+"#009900" +"\" >"+ "*"+Math.round((tvol)/mhm) + "</font>" + " / فردایی  "
+
+    }else{
+        (cfield3)="<font color=\""+"#009900" +"\" >"+ "*"+Math.round((tvol)/mhm)+ "</font>";
+    }
+    
+}
+else{
+    if((tno)>50&&(tvol)>(bvol)&&(bvol)<=7000000&&(plp)>=(pcp)+1.5&&(eps)>0){
+   (cfield3)=" فردایی ";
+    }else{
+    (cfield3)=""
+    }
+    
+}
+
+
+
+if ((tvol)!=0) return(1)
+}()
+
+
+
+
+
+
+
+
+
+
+
+true==function()
+{
+var PriceN=function(){
+var price=[ih][0].PClosing ;
+var D=50 ;
+var N=D-1 ;
+var n ;
+for(n=1;n<=N;n++)
+price=[ih][n].PClosing + price ;
+if(n=N)
+{
+price = price /(n+1) ;
+}
+return price ;
+};
+if((pl) > PriceN())
+{
+(cfield6)= "" +  "✅"
+return true;
+}
+else
+{
+return true;
+}
+(cfield6)= "" + "✅"
+}()
