@@ -102,11 +102,15 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-#alias apps="cd /home/fun/Documents/Apps/"
-alias config="cd /home/fun/Dropbox/Config"
-alias work='cd /home/fun/Documents/program/'
+######## THIS IS MY ALIAS ########
+
+
+
+#alias apps="cd /home/ali/Documents/Apps/"
+alias config="cd /home/ali/Dropbox/Config"
+alias work='cd /home/ali/Documents/program/'
 #alias gits='cd /home/ali/Documents/program/gits'
-#alias recently="cd /home/fun/Documents/program/Recently/"
+#alias recently="cd /home/ali/Documents/program/Recently/"
 
 
 alias web="cd /srv/http/"
@@ -124,19 +128,19 @@ alias pacmanlist="sudo pacman -Qn"
 
 alias myip="curl ident.me"
 alias covid-19="curl https://corona-stats.online/"
-alias CryptoPrice="python3 /home/fun/Dropbox/Config/OS/coin.py | lolcat"
-alias killl="/home/fun/Documents/Apps/kill_p.sh"
+alias CryptoPrice="python3 /home/ali/Dropbox/Config/OS/coin.py | lolcat"
+alias killl="/home/ali/Documents/Apps/kill_p.sh"
 
 
-alias .fishrc="vim /home/fun/.config/fish/config.fish"
-alias .z="vim /home/fun/.zshrc"
+alias .fishrc="vim /home/ali/.config/fish/config.fish"
+alias .z="vim /home/ali/.zshrc"
 
 
 alias f="fish"
 alias z="zsh"
 
 
-alias ll="ls -ltrh"
+alias ll="ls -ltrha"
 alias c="clear"
 alias e="exit"
 alias vi="vim"
@@ -164,8 +168,8 @@ alias wic="windscribe connect best"
 alias wid="windscribe disconnect"
 alias wis="windscribe account"
 
-#alias aliasbackup="cp /home/fun/.config/fish/config.fish /home/fun/config.fish"
-alias aliasbackup="cp /home/fun/.zshrc /home/fun/zshrc"
+#alias aliasbackup="cp /home/ali/.config/fish/config.fish /home/ali/config.fish"
+alias aliasbackup="cp /home/ali/.zshrc /home/ali/zshrc"
 
 #alias res='sudo sh -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf''
 
