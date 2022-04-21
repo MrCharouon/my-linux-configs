@@ -188,3 +188,4 @@ alias wttr="curl http://wttr.in/Zanjan"
 alias jn="jupyter-notebook"
 
 alias rere="source .zshrc"
+alias mute="xset b off"
