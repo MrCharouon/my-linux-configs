@@ -7,7 +7,7 @@
 
 ## _Shadowsocks Command Line Client Arch Linux_
 
-#
+
 
 ## Installation guide
 
