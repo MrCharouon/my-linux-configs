@@ -56,3 +56,19 @@ sslocal -c /etc/shadowsocks/example.json
 ```
 
 So, this service can be used as a proxy for example `127.0.0.1` on `1080` port
+
+
+
+
+## _Shadowsocks Command GUI Client Arch Linux_
+
+
+
+
+## Installation guide
+
+Install on Arch linux.
+
+```sh
+pacman -S shadowsocks-qt5
+```
