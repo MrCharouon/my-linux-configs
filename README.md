@@ -19,3 +19,5 @@
 8) [Assistance in installing Xfce on Arch Linux ](https://github.com/MrCharouon/my-linux-configs/blob/main/Xfce_Arch.md)
 
 9) [Shadowsocks ArchLinux](https://github.com/MrCharouon/my-linux-configs/blob/main/Shadowsocks_ArchLinux.md)
+
+10) [permissions linux](https://github.com/MrCharouon/my-linux-configs/blob/main/%E2%80%AB%E2%80%AApermission%E2%80%AC%E2%80%AC.md)
