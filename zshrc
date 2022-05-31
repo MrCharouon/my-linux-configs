@@ -117,7 +117,7 @@ alias web="cd /srv/http/"
 alias nmr="sudo systemctl restart NetworkManager"
 
 
-alias autoremove0="sudo pacman -R (pacman -Qdtq)"
+alias autoremove0="sudo pacman -R $(pacman -Qdtq)"
 alias autoremove1="yay -Scc"
 alias autoremove2="python -m pip cache purge"
 
@@ -129,7 +129,7 @@ alias pacmanlist="sudo pacman -Qn"
 alias myip="curl ident.me"
 alias covid-19="curl https://corona-stats.online/"
 alias CryptoPrice="python3 /home/ali/Dropbox/Config/OS/coin.py | lolcat"
-alias killl="/home/ali/Documents/Apps/kill_p.sh"
+alias killapps="/home/ali/Documents/Apps/kill_p.sh"
 
 
 alias .fishrc="vim /home/ali/.config/fish/config.fish"
@@ -172,6 +172,7 @@ alias wis="windscribe account"
 alias aliasbackup="cp /home/ali/.zshrc /home/ali/zshrc"
 
 #alias res='sudo sh -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf''
+alias 8888="/home/ali/Documents/Apps/8888.sh"
 
 #alias sa="source venv/bin/activate"
 #alias sd="deactivate"
@@ -189,3 +190,6 @@ alias jn="jupyter-notebook"
 
 alias rere="source .zshrc"
 alias mute="xset b off"
+alias sss="sslocal -c /etc/shadowsocks/example.json"
+alias hhh="python3 -m http.server"
+alias london="sslocal -c /etc/shadowsocks/london.json"
