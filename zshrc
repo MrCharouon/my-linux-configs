@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-######## THIS IS MY ALIAS ########
+
 
 
 
@@ -191,5 +191,7 @@ alias jn="jupyter-notebook"
 alias rere="source .zshrc"
 alias mute="xset b off"
 alias sss="sslocal -c /etc/shadowsocks/example.json"
-alias hhh="python3 -m http.server"
+alias hhh="python3 -m http.server 8500"
 alias london="sslocal -c /etc/shadowsocks/london.json"
+
+alias wget='wget -c '
