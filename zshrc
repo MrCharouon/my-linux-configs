@@ -195,3 +195,5 @@ alias hhh="python3 -m http.server 8500"
 alias london="sslocal -c /etc/shadowsocks/london.json"
 
 alias wget='wget -c '
+alias dns='cat /etc/resolv.conf'
+alias google='ping google.com'
