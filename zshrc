@@ -197,3 +197,4 @@ alias london="sslocal -c /etc/shadowsocks/london.json"
 alias wget='wget -c '
 alias dns='cat /etc/resolv.conf'
 alias google='ping google.com'
+alias tmp='cd /home/ali/tmp/'
