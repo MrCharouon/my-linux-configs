@@ -188,7 +188,7 @@ alias 8888="/home/ali/Documents/Apps/8888.sh"
 alias wttr="curl http://wttr.in/Zanjan"
 alias jn="jupyter-notebook"
 
-alias rere="source .zshrc"
+alias rere="source /home/ali/.zshrc"
 alias mute="xset b off"
 alias sss="sslocal -c /etc/shadowsocks/example.json"
 alias hhh="python3 -m http.server 8500"
