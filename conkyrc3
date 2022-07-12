@@ -1,0 +1,89 @@
+conky.config = {
+
+background=true,
+update_interval=1,
+double_buffer=true,
+no_buffers=true,
+imlib_cache_size=10,
+
+draw_shades=false,
+draw_outline=false,
+draw_borders=false,
+
+gap_x=40,
+gap_y=0,
+
+alignment="bottom_left",
+
+minimum_height=300,
+minimum_width=0,
+
+own_window=true,
+own_window_type="dock",
+own_window_transparent=true,
+own_window_hints="undecorated,below,sticky,skip_taskbar,skip_pager",
+
+own_window_argb_visual=true,
+own_window_argb_value=0,
+
+use_xft=true,
+xftalpha=1,
+font="Droid Sans:size=10",
+text_buffer_size=256,
+override_utf8_locale=true,
+
+default_color='FFFFFF',
+
+color0='FFFFFF',
+color1='FFFFFF',
+
+
+
+}
+
+
+
+conky.text = [[
+\
+\
+\
+\
+
+
+
+
+
+
+
+
+
+
+
+
+
+${font Product Sans:weight=Bold:size=13}CPU
+${cpu} P/100 P${alignr}${cpu /}% ${cpubar 4,100}
+
+${font Product Sans:weight=Bold:size=13}RAM
+${color}$mem/$memmax ${alignr}$memperc% ${membar 4,100}
+
+Home ($color${fs_type /home}${color0}) ${alignr}$color${diskio_write /dev/sda2}${color0}/$color${diskio_read /dev/sda2}
+${fs_used /home}${color0}/$color${fs_size /home}       ${alignr}$color${fs_used_perc /home}% ${color0}${fs_bar 8,100 /home}
+
+\
+\
+\
+\
+\
+\
+\
+\
+]]
+
+
+
+
+
+
+
+
