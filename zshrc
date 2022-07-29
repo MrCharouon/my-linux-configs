@@ -200,5 +200,5 @@ alias google='ping google.com'
 alias tmp='cd /home/ali/tmp/'
 alias watchlist="/home/ali/Documents/Apps/watchlist.sh"
 alias gpulist="lspci -k | grep -A 2 -E '(VGA|3D)'"
-alias Birth="stat / | awk '/Birth: /{print $2}'"
+alias birth="stat / | awk '/Birth: /{print $2}'"
 
