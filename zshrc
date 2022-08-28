@@ -201,5 +201,6 @@ alias tmp='cd /home/ali/tmp/'
 alias watchlist="/home/ali/Documents/Apps/watchlist.sh"
 alias gpulist="lspci -k | grep -A 2 -E '(VGA|3D)'"
 alias birth="bash ~/Documents/Apps/birth.sh"
-
-
+alias oping="ping 8.8.8.8"
+alias on="/home/ali/Documents/Apps/enableKillSwitch.sh"
+alias off="/home/ali/Documents/Apps/disableKillSwitch.sh"
