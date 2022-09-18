@@ -205,3 +205,6 @@ alias oping="ping 8.8.8.8"
 alias on="/home/ali/Documents/Apps/enableKillSwitch.sh"
 alias off="/home/ali/Documents/Apps/disableKillSwitch.sh"
 alias py="ls -ltrh *.py"
+alias w1="watch uptime"
+alias w2="watch 'df -h | grep sda'"
+
