@@ -172,10 +172,10 @@ alias wis="windscribe account"
 alias aliasbackup="cp /home/ali/.zshrc /home/ali/zshrc"
 
 #alias res='sudo sh -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf''
-alias 8888="/home/ali/Documents/Apps/8888.sh"
+alias 8="/home/ali/Documents/Apps/8888.sh"
 
-#alias sa="source venv/bin/activate"
-#alias sd="deactivate"
+alias sa="source venv/bin/activate"
+alias sd="deactivate"
 
 
 #alias cal="cal 2021"
@@ -204,7 +204,13 @@ alias birth="bash ~/Documents/Apps/birth.sh"
 alias oping="ping 8.8.8.8"
 alias on="/home/ali/Documents/Apps/enableKillSwitch.sh"
 alias off="/home/ali/Documents/Apps/disableKillSwitch.sh"
-alias py="ls -ltrh *.py"
+alias py="ls -ltrhe*.py"
 alias w1="watch uptime"
 alias w2="watch 'df -h | grep sda'"
 
+alias myport="sudo lsof -i :1080"
+alias ssht="/home/ali/Documents/Apps/ssh.sh"
+alias sshv="vim /home/ali/Documents/Apps/ssh.sh"
+alias vps="/home/ali/Documents/Apps/vps.sh"
+alias vpsv="vim /home/ali/Documents/Apps/vps.sh"
+alias ppp="proxychains bash"
